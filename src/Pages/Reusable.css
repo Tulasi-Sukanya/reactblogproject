@@ -1,0 +1,61 @@
+img{
+    height:23vh;
+    border-radius:9px;
+    width:100%;
+}
+.article{
+    font-weight:bold;
+    color:grey;
+    margin-top: -51%;
+    width: 95%;
+    /* text-align:center; */
+    margin-left: 85%;
+}
+.title{
+    width: 80%;
+    font-weight:bold;
+    color:green;
+    position: absolute;
+    left: 88%;
+}
+.date{
+    font-weight:bold;
+    color:grey;
+    margin-top: 10%;
+    width: 40%;
+    position: absolute;
+    left: 110%;
+}
+p{
+    font-weight:bold;
+    color:grey;
+    text-align:center;
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+    img{
+        height:60vh;
+        border-radius:9px;
+        width:60%;
+        margin-bottom: 4vh;
+    }
+    .article{
+        font-weight:bold;
+        color:grey;
+        text-align:center;
+    }
+    .title{
+        font-weight:bold;
+        color:green;
+        text-align:center;
+    }
+    .date{
+        font-weight:bold;
+        color:grey;
+        text-align:center;
+    }
+    p{
+        font-weight:bold;
+        color:grey;
+        text-align:center;
+    }
+}

@@ -1,0 +1,124 @@
+.bwood{
+    display: flex;
+    flex-direction: column;
+    height: 197vh;
+    margin: 7rem;
+    /* margin: 2rem auto auto; */
+    position: relative;
+    width: 92%;
+}
+h1{
+    margin-left: 18rem;
+    font-size: 1.8rem;
+}
+.mainhr{
+    margin-left: .1rem;
+    background-color: red;
+    position: relative;
+    width: 2rem;
+  }
+  .mainhr:hover{
+    width: 5.5rem;
+    transition: all 2s;
+  }
+  .leftdata{
+    height: 138vh;
+    position: relative;
+    width: 35%;
+    /* height: 45%; */
+    margin: 1.5rem;
+  }
+  .subhr{
+    background-color: red;
+    width: 5rem;
+  }
+  .leftdata img{
+    margin-top: -6rem;
+    border-radius: 8px;
+    height: 45vh;
+    width: 70%;
+  }
+  .posthr{
+    margin-top: 1rem;
+    width: 180%;
+  }
+  h3{
+    text-align: right;
+    position: absolute;
+    top:-10%;
+    right: 6rem;
+  }
+  .rightdatt{
+    margin-left: 85%;
+    position:absolute;
+    top:-3.5%;
+    right: 15%;
+  }
+  .rightdatt .title{
+    margin-top: -65%;
+    margin-left: 5%;
+  }
+  .rightdatt .date{
+    margin-top: -35%;
+    margin-left: 25%;
+    width: 5%;
+  }
+  .add{
+    border: 2px solid black;
+    height: 90vh;
+    width: 200%;
+    padding-top: 40vh;
+    padding-left: 50%;
+  }
+@media only screen and (min-width:330px ) and (max-width: 1024px) and (orientation: landscape){
+    .bwood{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .mainhr{
+        margin-right: 15%;
+        background-color: red;
+        width: 2rem;
+    }
+    .leftdata img{
+        text-align: center;
+        margin-left: 80%;
+        height: auto;
+        width: 100%;
+    }
+    .leftdata .article{
+        margin-top: 10%;
+        margin-left: 75%;
+        max-width: 100%;
+    }
+    .posthr{
+        width: 260%;
+    }
+    h3{
+      margin-top: 568vh;
+      margin-right: 59vh;
+    }
+    .rightdatt{
+        margin-top: 570vh;
+        margin-right: 40%;
+    }
+    .rightdatt img{
+        height: auto;
+        width: 180%;
+    }
+    .rightdatt .title{
+        margin-top: 20%;
+        margin-left: -42%;
+    }
+    .rightdatt .date{
+        margin-top: 35%;
+        margin-left: -75%;
+        width: 130%;
+    }
+
+}

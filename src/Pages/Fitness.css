@@ -1,0 +1,129 @@
+.fwood{
+    display: flex;
+    flex-direction: column;
+    height: 197vh;
+    margin: 7rem;
+    /* margin: 2rem auto auto; */
+    position: relative;
+    width: 92%;
+}
+h1{
+    margin-left: 18rem;
+    font-size: 1.8rem;
+}
+.mainhr{
+    margin-left: .1rem;
+    background-color: red;
+    position: relative;
+    width: 2rem;
+  }
+  .mainhr:hover{
+    width: 5.5rem;
+    transition: all 2s;
+  }
+  .fleftdata{
+    height: 138vh;
+    position: relative;
+    width: 35%;
+    /* height: 45%; */
+    margin: 1.5rem;
+  }
+  .subhr{
+    background-color: red;
+    width: 5rem;
+  }
+  .fleftdata img{
+    margin-top: -6rem;
+    border-radius: 8px;
+    height: 45vh;
+    width: 70%;
+  }
+  .fposthr{
+    margin-top: 1rem;
+    width: 180%;
+  }
+  h3{
+    text-align: right;
+    position: absolute;
+    top:-10%;
+    right: 6rem;
+  }
+  .frightdata{
+    margin-left: 85%;
+    position:absolute;
+    top:-3.5%;
+    right: 15%;
+  }
+  .frightdata .article{
+    margin-top: -65%;
+    margin-left: 115%;
+  }
+  .frightdata .title{
+    margin-top: -80%;
+    margin-left: 25%;
+  }
+  .fad{
+    border: 2px solid black;
+    height: 90vh;
+    width: 200%;
+    padding-top: 40vh;
+    padding-left: 50%;
+  }
+  
+  @media only screen and (max-width: 1024px) and (orientation: landscape){
+    .fwood{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .mainhr{
+        margin-right: 15%;
+        background-color: red;
+        width: 2rem;
+    }
+    .fleftdata img{
+        text-align: center;
+        margin-left: 80%;
+        height: auto;
+        width: 100%;
+    }
+    .fleftdata .article{
+        margin-top: 10%;
+        margin-left: 75%;
+        max-width: 100%;
+    }
+    .fposthr{
+        width: 260%;
+    }
+    #fit{
+      margin-top: 528vh;
+      margin-right: 60vh;
+    }
+    .frightdata{
+        margin-top: 530vh;
+        margin-right: 40%;
+    }
+    .frightdata img{
+        height: auto;
+        width: 180%;
+    }
+    .frightdata .article{
+        margin-top: 20%;
+        margin-left: 42%;
+    }
+    .frightdata .title{
+        margin-top: 20%;
+        margin-left: -42%;
+    }
+    .frightdata .date{
+        margin-top: 35%;
+        margin-left: -75%;
+        width: 130%;
+    }
+
+}
+

@@ -1,0 +1,138 @@
+.twood{
+    display: flex;
+    flex-direction: column;
+    height: 197vh;
+    margin: 7rem;
+    /* margin: 2rem auto auto; */
+    position: relative;
+    width: 92%;
+}
+h1{
+    margin-left: 18rem;
+    font-size: 1.8rem;
+}
+.mainhr{
+    margin-left: .1rem;
+    background-color: red;
+    position: relative;
+    width: 2rem;
+  }
+  .mainhr:hover{
+    width: 5.5rem;
+    transition: all 2s;
+  }
+  .tleftdata{
+    height: 138vh;
+    position: relative;
+    width: 35%;
+    /* height: 45%; */
+    margin: 1.5rem;
+  }
+  .subhr{
+    background-color: red;
+    width: 5rem;
+  }
+  .tleftdata img{
+    margin-top: -6rem;
+    border-radius: 8px;
+    height: 38vh;
+    width: 70%;
+  }
+  .tposthr{
+    margin-top: -1rem;
+    width: 180%;
+  }
+  h3{
+    text-align: right;
+    position: absolute;
+    top:-10%;
+    right: 6rem;
+  }
+  .trightdata{
+    margin-left: 85%;
+    position:absolute;
+    width: 15%;
+    top:-3.5%;
+    right: 15%;
+  }
+  .trightdata .article{
+    margin-top: -45%;
+    margin-left: 105%;
+  }
+  .trightdata .title{
+    margin-top: -49%;
+    margin-left: 15%;
+  }
+  .trightdata .date{
+    margin-top: -5%;
+    margin-left: 25%;
+    width: 8%;
+  }
+  .tad{
+    border: 2px solid black;
+    height: 80vh;
+    width: 150%;
+    padding-top: 40vh;
+    padding-left: 50%;
+  }
+  @media only screen and (max-width: 1024px) and (orientation: landscape){
+    .twood{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .tleftdata img{
+        text-align: center;
+        margin-left: 80%;
+        height: auto;
+        width: 100%;
+    }
+    .tleftdata .article{
+        margin-top: 10%;
+        margin-left: 75%;
+        max-width: 100%;
+    }
+    .tposthr{
+        width: 260%;
+    }
+    h3{
+      margin-top: 438vh;
+      margin-right: 62vh;
+    }
+    .trightdata{
+        margin-top: 440vh;
+        margin-right: 40%;
+    }
+    .trightdata img{
+        height: auto;
+        width: 180%;
+    }
+    .trightdata .article{
+        margin-top: 15%;
+        margin-left: 36%;
+    }
+    .trightdata .title{
+        margin-top: 6%;
+        margin-left: -42%;
+    }
+    .trightdata .date{
+        margin-top: 25%;
+        margin-left: -85%;
+        width: 130%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

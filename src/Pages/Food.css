@@ -1,0 +1,124 @@
+.food{
+    display: flex;
+    flex-direction: column;
+    height: 197vh;
+    margin: 7rem;
+    /* margin: 2rem auto auto; */
+    position: relative;
+    width: 92%;
+}
+h1{
+    margin-left: 18rem;
+    font-size: 1.8rem;
+}
+.mainhr{
+    margin-left: .1rem;
+    background-color: red;
+    position: relative;
+    width: 2rem;
+  }
+  .mainhr:hover{
+    width: 5.5rem;
+    transition: all 2s;
+  }
+  .fooleftdata{
+    height: 138vh;
+    position: relative;
+    width: 35%;
+    /* height: 45%; */
+    margin: 1.5rem;
+  }
+  .subhr{
+    background-color: red;
+    width: 5rem;
+  }
+  .fooleftdata img{
+    margin-top: -6rem;
+    border-radius: 8px;
+    height: 45vh;
+    width: 70%;
+  }
+  .fooposthr{
+    margin-top: 1rem;
+    width: 180%;
+  }
+  h3{
+    text-align: right;
+    position: absolute;
+    top:-10%;
+    right: 6rem;
+  }
+  .foorightdata{
+    margin-left: 85%;
+    position:absolute;
+    top:-3.5%;
+    right: 15%;
+  }
+  .foorightdata .title{
+    margin-top: -165%;
+    margin-left: 22%;
+  }
+  .foorightdata .article{
+    margin-top: -65%;
+    margin-left: 119%;
+    width: 15%;
+  }
+  .fooad{
+    border: 2px solid black;
+    height: 100vh;
+    width: 200%;
+    padding-top: 40vh;
+    padding-left: 50%;
+  }
+  @media only screen and (max-width: 1024px) and (orientation: landscape){
+    .food{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .mainhr{
+        margin-right: 15%;
+        background-color: red;
+        width: 2rem;
+    }
+    .fooleftdata img{
+        text-align: center;
+        margin-left: 80%;
+        height: auto;
+        width: 100%;
+    }
+    .fooleftdata .article{
+        margin-top: 10%;
+        margin-left: 75%;
+        max-width: 100%;
+    }
+    .posthr{
+        width: 260%;
+    }
+    h3{
+      margin-top: 568vh;
+      margin-right: 59vh;
+    }
+    .foorightdata{
+        margin-top: 570vh;
+        margin-right: 40%;
+    }
+    .foorightdata img{
+        height: auto;
+        width: 180%;
+    }
+    .foorightdata .title{
+        margin-top: -83%;
+        margin-left: -42%;
+    }
+    .foorightdata .article{
+        margin-top: 15%;
+        margin-left: 35%;
+        width: 130%;
+    }
+
+}

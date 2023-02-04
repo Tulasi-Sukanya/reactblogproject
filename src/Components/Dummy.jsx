@@ -1,0 +1,705 @@
+// .main-container{
+//     height: auto;
+//     width: 100%;
+// }
+// .homecontainer{
+//     height: 60vh;
+//     width: 60%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly;
+//     margin: auto;
+//     gap: 10px;
+//     position: relative;
+// }
+
+// .homecontainer img{
+//     height: 53vh;
+//     width: 50%;
+//     border-radius: 8px;
+// }
+// .sub-div img{
+//     border-radius: 8px;
+//     height: 26vh;
+//     width: 90%;
+// }
+// .story-container{
+//     align-items: center;
+//     display: flex;
+//     height: 46vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// h2{
+// text-align: center;
+// }
+// .underline{
+//     text-align: center;
+//     cursor: pointer;
+//     background-color: red;
+//     position: relative;
+//     width: 4rem;
+// }
+// .underline:hover{
+//     width: 12rem;
+//     transition: all 2s;
+// }
+// #tech{
+//     text-align: center;
+//     position: absolute;
+//     top: 153%;
+//     left: 42%;
+// }
+// .tech-container{
+//     align-items: center;
+//     display: flex;
+//     height: 150vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// #bolly{
+//     text-align: center;
+//     position: absolute;
+//     top: 220%;
+//     left: 43%;
+// }
+// .bollywood-container{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     margin: auto;
+//     justify-content: space-evenly;
+//     gap: 2px;
+//     width: 20%;
+//     position: absolute;
+//     top:230%;
+//     left: 17%;
+// }
+// .bollywood-container img{
+//     height: 35vh;
+// }
+// .bollywood-container title,date{
+//     text-align: right;
+// }
+// .moviedetails{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     justify-content: space-evenly;
+//     gap: 0.1rem;
+//     width: 70%;
+//     position: absolute;
+//     top:-3.5rem;
+//     left: 119%;
+// }
+// .ad-container{
+//     display: flex;
+//     border: 2px solid black;
+//     text-align: center;
+//     padding-top: 25rem;
+//     padding-left: 5rem;
+//     width:15rem;
+//     height: 165vh;
+//     position: absolute;
+//     top:2%;
+//     left: 260%;
+// }
+// #holly{
+//     text-align: center;
+//     position: absolute;
+//     top: 410%;
+//     left: 43%;
+// }
+// .hollywood-container{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     margin: auto;
+//     justify-content: space-evenly;
+//     gap: 2px;
+//     width: 20%;
+//     position: absolute;
+//     top:430%;
+//     left: 17%;
+// }
+// .hollywood-container img{
+//     height: 35vh;
+// }
+// .hollywood-container title,date{
+//     text-align: right;
+// }
+// .hollymoviedetails{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     justify-content: space-evenly;
+//     gap:-10px;
+//     width: 70%;
+//     position: absolute;
+//     top:-0.5rem;
+//     left: 119%;
+// }
+// .add-container{
+//     display: flex;
+//     border: 2px solid black;
+//     text-align: center;
+//     padding-top: 25rem;
+//     padding-left: 5rem;
+//     width:15rem;
+//     height: 173vh;
+//     position: absolute;
+//     top:2rem;
+//     left: 260%;
+// }
+// #food{
+//     text-align: center;
+//     position: absolute;
+//     top: 620%;
+//     left: 43%;
+// }
+// .food-container{
+//     align-items: center;
+//     display: flex;
+//     height: 1050vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// #fitness{
+//     text-align: center;
+//     position: absolute;
+//     top: 690%;
+//     left: 43%;
+// }
+// .fitness-container{
+//     align-items: center;
+//     display: flex;
+//     height: 1160vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// .footer{
+//     position: absolute;
+//     top:1000%
+// }
+
+// img{
+//     height:23vh;
+//     border-radius:9px;
+//     width:100%;
+// }
+// .article{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// .title{
+//     font-weight:bold;
+//     color:green;
+//     text-align:center;
+// }
+// .date{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// p{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// @media only screen and (max-width: 1024px) and (orientation: landscape){
+//     .homecontainer{
+//         display: flex;
+//         flex-direction: column;
+//         height: auto;
+//         width: 100%;
+//     }
+//     .homecontainer img{
+//         height: 90vh;
+//         margin-top: 5vh;
+//         width: 90%;
+//     }
+//     .sub-div img{
+//         height: 60vh;
+//         width: 65%;
+//         margin-left: 185px;
+//     }
+//     #sport{
+//         margin-top: 3vh;
+//     }
+//     .story-container{
+//         height: 139vh;
+//         display: flex;
+//         flex-direction: column;
+//         margin-top: 25%;
+//     }
+//     #tech{
+//         text-align: center;
+//         position: absolute;
+//         top: 510%;
+//         left: 40%;
+//     }
+//     .tech-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 130vh;
+//         margin-top: 280vh;
+//         position: absolute;
+//         left: 22%;
+//     }
+//     #bolly{
+//         text-align: center;
+//         position: absolute;
+//         top: 775%;
+//         left: 40%;
+//     }
+//     .bollywood-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 190vh;
+//         margin: auto;
+//         position: absolute;
+//         top:790%;
+//         left: 17%;
+//     }
+//     #holly{
+//         text-align: center;
+//         position: absolute;
+//         top: 975%;
+//         left: 40%;
+//     }
+//     .hollywood-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 190vh;
+//         margin: auto;
+//         position: absolute;
+//         top:990%;
+//         left: 17%;
+//     }
+//     #food{
+//         text-align: center;
+//         position: absolute;
+//         top: 1175%;
+//         left: 40%;
+//     }
+//     .food-container{
+//         align-items: center;
+//         display: flex;
+//         flex-direction: column;
+//         height: 150vh;
+//         position: absolute;
+//         top:1265%;
+//         left: 18%;
+//     }
+//     #fitness{
+//         text-align: center;
+//         position: absolute;
+//         top: 1485%;
+//         left: 40%;
+//     }
+//     .fitness-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 120vh;
+//         position: absolute;
+//         top:1590%;
+//         left: 18%;
+//     }  
+//     img{
+//         height:50vh;
+//         border-radius:9px;
+//         width:90%;
+//     }
+// }
+///////////////////////////////////
+// .main-container{
+//     height: auto;
+//     width: 100%;
+// }
+// .homecontainer{
+//     height: 60vh;
+//     width: 60%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly;
+//     margin: auto;
+//     gap: 10px;
+//     position: relative;
+// }
+
+// .homecontainer img{
+//     height: 53vh;
+//     width: 50%;
+//     border-radius: 8px;
+// }
+// .sub-div img{
+//     border-radius: 8px;
+//     height: 26vh;
+//     width: 90%;
+// }
+// #sport{
+//     text-align: center;
+// }
+// .sport-container{
+//     align-items: center;
+//     display: flex;
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//     height: 46vh;
+//     justify-content: space-evenly;
+//     margin: 5px;
+//     width: 70%;
+//     position: absolute;
+//     top: 88%;
+//     left: 18%;
+// }
+// .card{
+//     height: 200px;
+//     width: 260px;
+//     text-align: left;
+// }
+// article{
+//     padding-top: 5%;
+//     font-weight:bold;
+//     color:grey;
+// }
+// .card p{
+//     color: green;
+// }
+// h6{
+//     color: blue;
+//     font-weight: bold;
+// }
+// /* .sport-container .article,.date{
+//     position: absolute;
+//     top: 255%;
+//     left:-82%;
+//     width: 25%;
+// } */
+// .underline{
+//     text-align: center;
+//     cursor: pointer;
+//     background-color: red;
+//     position: relative;
+//     width: 4rem;
+// }
+// .underline:hover{
+//     width: 12rem;
+//     transition: all 2s;
+// }
+// #tech{
+//     text-align: center;
+//     position: absolute;
+//     top: 153%;
+//     left: 42%;
+// }
+// .tech-container{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     height: 150%;
+//     justify-content: space-evenly;
+//     margin: 5px;
+//     width: 90%;
+//     position: absolute;
+//     top:93%;
+//     left: 1%;
+// }
+// .tcard{
+//     padding: 8%;
+//     height: 200px;
+//     width: 260px;
+//     text-align: left;
+// }
+// .tcard img{
+//     height: -150%;
+//     width: 430%;
+// }
+// .tcard article{
+//     position: absolute;
+//     left: 15%;
+//     width: 50%;
+// }
+// #bolly{
+//     text-align: center;
+//     position: absolute;
+//     top: 220%;
+//     left: 43%;
+// }
+// .bollywood-container{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     margin: auto;
+//     justify-content: space-evenly;
+//     gap: 2px;
+//     width: 20%;
+//     position: absolute;
+//     top:230%;
+//     left: 17%;
+// }
+// .bollywood-container img{
+//     height: 35vh;
+// }
+// .bollywood-container title,date{
+//     text-align: right;
+// }
+// .moviedetails{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     justify-content: space-evenly;
+//     gap: 0.1rem;
+//     width: 70%;
+//     position: absolute;
+//     top:-3.5rem;
+//     left: 119%;
+// }
+// .ad-container{
+//     display: flex;
+//     border: 2px solid black;
+//     text-align: center;
+//     padding-top: 25rem;
+//     padding-left: 5rem;
+//     width:15rem;
+//     height: 165vh;
+//     position: absolute;
+//     top:2%;
+//     left: 260%;
+// }
+// #holly{
+//     text-align: center;
+//     position: absolute;
+//     top: 410%;
+//     left: 43%;
+// }
+// .hollywood-container{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     margin: auto;
+//     justify-content: space-evenly;
+//     gap: 2px;
+//     width: 20%;
+//     position: absolute;
+//     top:430%;
+//     left: 17%;
+// }
+// .hollywood-container img{
+//     height: 35vh;
+// }
+// .hollywood-container title,date{
+//     text-align: right;
+// }
+// .hollymoviedetails{
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: 190vh;
+//     justify-content: space-evenly;
+//     gap:-10px;
+//     width: 70%;
+//     position: absolute;
+//     top:-0.5rem;
+//     left: 119%;
+// }
+// .add-container{
+//     display: flex;
+//     border: 2px solid black;
+//     text-align: center;
+//     padding-top: 25rem;
+//     padding-left: 5rem;
+//     width:15rem;
+//     height: 173vh;
+//     position: absolute;
+//     top:2rem;
+//     left: 260%;
+// }
+// #food{
+//     text-align: center;
+//     position: absolute;
+//     top: 620%;
+//     left: 43%;
+// }
+// .food-container{
+//     align-items: center;
+//     display: flex;
+//     height: 1050vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// #fitness{
+//     text-align: center;
+//     position: absolute;
+//     top: 690%;
+//     left: 43%;
+// }
+// .fitness-container{
+//     align-items: center;
+//     display: flex;
+//     height: 1160vh;
+//     justify-content: space-evenly;
+//     gap: 15px;
+//     width: 70%;
+//     position: absolute;
+//     left: 18%;
+// }
+// .footer{
+//     position: absolute;
+//     top:1000%
+// }
+
+// img{
+//     height:23vh;
+//     border-radius:9px;
+//     width:100%;
+// }
+// .article{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// .title{
+//     font-weight:bold;
+//     color:green;
+//     text-align:center;
+// }
+// .date{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// p{
+//     font-weight:bold;
+//     color:grey;
+//     text-align:center;
+// }
+// @media only screen and (max-width: 1024px) and (orientation: landscape){
+//     .homecontainer{
+//         display: flex;
+//         flex-direction: column;
+//         height: auto;
+//         width: 100%;
+//     }
+//     .homecontainer img{
+//         height: 90vh;
+//         margin-top: 5vh;
+//         width: 90%;
+//     }
+//     .sub-div img{
+//         height: 60vh;
+//         width: 65%;
+//         margin-left: 185px;
+//     }
+//     #sport{
+//         margin-top: 3vh;
+//     }
+//     .story-container{
+//         height: 139vh;
+//         display: flex;
+//         flex-direction: column;
+//         margin-top: 25%;
+//     }
+//     #tech{
+//         text-align: center;
+//         position: absolute;
+//         top: 510%;
+//         left: 40%;
+//     }
+//     .tech-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 130vh;
+//         margin-top: 280vh;
+//         position: absolute;
+//         left: 22%;
+//     }
+//     #bolly{
+//         text-align: center;
+//         position: absolute;
+//         top: 775%;
+//         left: 40%;
+//     }
+//     .bollywood-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 190vh;
+//         margin: auto;
+//         position: absolute;
+//         top:790%;
+//         left: 17%;
+//     }
+//     #holly{
+//         text-align: center;
+//         position: absolute;
+//         top: 975%;
+//         left: 40%;
+//     }
+//     .hollywood-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 190vh;
+//         margin: auto;
+//         position: absolute;
+//         top:990%;
+//         left: 17%;
+//     }
+//     #food{
+//         text-align: center;
+//         position: absolute;
+//         top: 1175%;
+//         left: 40%;
+//     }
+//     .food-container{
+//         align-items: center;
+//         display: flex;
+//         flex-direction: column;
+//         height: 150vh;
+//         position: absolute;
+//         top:1265%;
+//         left: 18%;
+//     }
+//     #fitness{
+//         text-align: center;
+//         position: absolute;
+//         top: 1485%;
+//         left: 40%;
+//     }
+//     .fitness-container{
+//         display: flex;
+//         flex-direction: column;
+//         height: 120vh;
+//         position: absolute;
+//         top:1590%;
+//         left: 18%;
+//     }  
+//     img{
+//         height:50vh;
+//         border-radius:9px;
+//         width:90%;
+//     }
+// }
