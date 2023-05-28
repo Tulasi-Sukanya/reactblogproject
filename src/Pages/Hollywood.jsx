@@ -1,12 +1,12 @@
 import React from 'react'
 import ReusableComp from './ReusableComp'
 import "./Hollywood.css"
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 
 const Hollywood = () => {
   return (
     <div>
-      <h1>Technology<hr className='mainhr'/></h1>
+      <h1>Hollywood<hr className='mainhr'/></h1>
       <div className="hwood">
       <h3 id='how'>Top Posts<hr className='subhr'/></h3>
         <div className='hleftdata'>
@@ -26,8 +26,10 @@ const Hollywood = () => {
           <ReusableComp className="story img article title date" img="https://assets.vogue.in/photos/5de8c84a6ffadb00085fb0d2/2:3/w_2560%2Cc_limit/Gal-Gagot-as-Wonder-Woman.jpg" title="Wonder Woman" date="Released in 2022"/><br/><br/><br/><br/><br/><br/><br/>
           <div className='had'>Advertisement</div>
           </div>
+        </div><br/><br/><br/> <br/><br/><br/><br/> <br/><br/><br/><br/> <br/><br/><br/>
+        <div className='foot'>
+          <Footer/>
         </div>
-        {/* <Footer/> */}
     </div>
   )
 }

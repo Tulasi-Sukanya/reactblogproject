@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Food.css"
 import ReusableComp from './ReusableComp'
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 
 const Food = () => {
   return (
@@ -29,8 +29,10 @@ const Food = () => {
           <ReusableComp className=" img article title date" img='https://i.pinimg.com/originals/21/84/b7/2184b754177f36685409721915f4fe77.jpg' title="Vegetable Meal" article="Andhra Vegetable Meal.."/><br/>
           <div className='fooad'>Advertisement</div>
           </div>
+        </div><br/><br/><br/><br/><br/><br/>
+        <div className='foot'>
+          <Footer/>
         </div>
-        {/* <Footer/> */}
     </div>
   )
 }

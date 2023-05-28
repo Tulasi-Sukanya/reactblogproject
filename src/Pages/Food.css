@@ -5,7 +5,7 @@
     margin: 7rem;
     /* margin: 2rem auto auto; */
     position: relative;
-    width: 92%;
+    width: 90%;
 }
 h1{
     margin-left: 18rem;
@@ -35,8 +35,8 @@ h1{
   .fooleftdata img{
     margin-top: -6rem;
     border-radius: 8px;
-    height: 45vh;
-    width: 70%;
+    height: 40vh;
+    width: 60%;
   }
   .fooposthr{
     margin-top: 1rem;
@@ -81,9 +81,13 @@ h1{
         text-align: center;
     }
     .mainhr{
-        margin-right: 15%;
+        /* margin-right: 15%;
         background-color: red;
-        width: 2rem;
+        width: 2rem; */
+        display: none;
+    }
+    .subhr{
+      display: none;
     }
     .fooleftdata img{
         text-align: center;
@@ -100,11 +104,11 @@ h1{
         width: 260%;
     }
     h3{
-      margin-top: 568vh;
+      margin-top: 608vh;
       margin-right: 59vh;
     }
     .foorightdata{
-        margin-top: 570vh;
+        margin-top: 610vh;
         margin-right: 40%;
     }
     .foorightdata img{

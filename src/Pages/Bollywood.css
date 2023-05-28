@@ -1,11 +1,11 @@
 .bwood{
     display: flex;
     flex-direction: column;
-    height: 197vh;
+    height: 220vh;
     margin: 7rem;
     /* margin: 2rem auto auto; */
     position: relative;
-    width: 92%;
+    width: 90%;
 }
 h1{
     margin-left: 18rem;
@@ -35,8 +35,8 @@ h1{
   .leftdata img{
     margin-top: -6rem;
     border-radius: 8px;
-    height: 45vh;
-    width: 70%;
+    height: 40vh;
+    width: 60%;
   }
   .posthr{
     margin-top: 1rem;
@@ -51,7 +51,7 @@ h1{
   .rightdatt{
     margin-left: 85%;
     position:absolute;
-    top:-3.5%;
+    top:-4.5%;
     right: 15%;
   }
   .rightdatt .title{
@@ -65,12 +65,12 @@ h1{
   }
   .add{
     border: 2px solid black;
-    height: 90vh;
+    height: 70vh;
     width: 200%;
     padding-top: 40vh;
     padding-left: 50%;
   }
-@media only screen and (min-width:330px ) and (max-width: 1024px) and (orientation: landscape){
+@media only screen and (min-width:540px ) and (max-width: 1024px) and (orientation: landscape){
     .bwood{
         display: flex;
         flex-direction: column;
@@ -81,9 +81,13 @@ h1{
         text-align: center;
     }
     .mainhr{
-        margin-right: 15%;
+        /* margin-right: 15%;
         background-color: red;
-        width: 2rem;
+        width: 2rem; */
+        display: none;
+    }
+    .subhr{
+      display: none;
     }
     .leftdata img{
         text-align: center;
@@ -95,16 +99,17 @@ h1{
         margin-top: 10%;
         margin-left: 75%;
         max-width: 100%;
+        text-decoration: none;
     }
     .posthr{
         width: 260%;
     }
-    h3{
-      margin-top: 568vh;
-      margin-right: 59vh;
+    #boo{
+      margin-top: 608vh;
+      margin-right: 79vh;
     }
     .rightdatt{
-        margin-top: 570vh;
+        margin-top: 610vh;
         margin-right: 40%;
     }
     .rightdatt img{
@@ -120,5 +125,8 @@ h1{
         margin-left: -75%;
         width: 130%;
     }
-
+    .foot{
+      display: none;
+    }
 }
+

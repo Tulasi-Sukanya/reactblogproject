@@ -2,7 +2,7 @@ import React from 'react'
 import "./Technology.css"
 // import "./Bollywood.css"
 import ReusableComp from './ReusableComp' 
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 
 const Technology = () => {
   return (
@@ -17,7 +17,6 @@ const Technology = () => {
           <br/><br/><br/><br/><br/><br/><br/><br/><br/>
           <hr className='tposthr'/>
           <br/><br/><br/><br/><br/><br/><br/>
-          {/* <hr className='tposthr'/> */}
           <ReusableComp className="story img article title date" img="https://cdn.educba.com/academy/wp-content/uploads/2019/11/full-stack-web-developer.png" title="Full Stack Web Devolopment" article="A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)" date="Date:Today" /><br/><br/><br/><br/><br/> <br/><br/><br/>
           <hr className='tposthr'/>
           <br/><br/><br/><br/><br/><br/> <br/>
@@ -28,11 +27,13 @@ const Technology = () => {
           <ReusableComp className="img article title date" img="https://www.simplilearn.com/ice9/free_resources_article_thumb/iot-explained-what-it-is-how-it-works-and-its-applications-banner.jpg" title="IOT" article="Iot Explained.What it is, How it works, Why it matters"  date="Date:Today"/><br/><br/><br/><br/>
           <ReusableComp className="img article title date" img="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data-Science-vs.-Big-Data-vs.jpg"  title="Data Science" article="Data Science vs Big Data vs Data Analytics" date="Date:Today"/><br/><br/><br/><br/>
           <ReusableComp className="img article title date" img="https://cdn.educba.com/academy/wp-content/uploads/2019/11/full-stack-web-developer.png" title="Full Stack Web Devolopment" article="The Rise of Full Stack Freelancing" date="Date:Today" /><br/><br/><br/><br/>
-          <ReusableComp className="img article title date" img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfQ6gQpIec9kyoES4VPfOVAoYAkK6mAFPJQ&usqp=CAU" article="AI,MachineLearning,Automation,DigitalMarketing,UI,CyberSecurity,FinTechetc.." date="Date:Today" /><br/><br/><br/>
+          <ReusableComp className="img article title date" img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGfQ6gQpIec9kyoES4VPfOVAoYAkK6mAFPJQ&usqp=CAU" article="AI,MachineLearning" date="Date:Today" /><br/><br/><br/>
          <div className='tad'>Advertisement</div>
           </div>
-        </div>
-        {/* <Footer/> */}
+        </div><br /><br/><br/><br/> <br/><br/><br/><br/> <br/>
+      <div className='foot'>
+      <Footer/>
+      </div>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReusableComp from './ReusableComp'
 import "./Bollywood.css"
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 
 const Bollywood = () => {
   return (
@@ -31,7 +31,9 @@ const Bollywood = () => {
           <div className='add'>Advertisement</div>
         </div>
       </div>
-      {/* <Footer className="foot"/> */}
+      <div className='foot'>
+      <Footer/>
+      </div>
     </div>
   )
 }

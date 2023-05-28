@@ -9,10 +9,10 @@ const ReusableComp = (props) => {
     <div className='parent'>
     <Link to="/spatile" state={props}>
             <img src={props.img} alt="error"/>
-    </Link>       
             <p className='article'>{props.article}</p>
-            <p className='title'>{props.title}</p>
+            <p className='title'>{props.title}</p><br/>
             <p className='date'>{props.date}</p>
+    </Link>       
     </div> 
     </>
   )

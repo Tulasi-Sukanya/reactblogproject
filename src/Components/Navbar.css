@@ -1,14 +1,14 @@
-*{
+/* *{
     box-sizing: border-box;
 }
 body{
-    height: 450vh;
+    height: 55vh;
     font-family: 'Roboto',sans-serif;
     letter-spacing: 0.2px;
     /* background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+/* } */
 .header{
     /* display: flex; */
     /* align-items: center; */

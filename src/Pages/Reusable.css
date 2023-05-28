@@ -1,5 +1,5 @@
 img{
-    height:23vh;
+    height:20vh;
     border-radius:9px;
     width:100%;
 }
@@ -8,6 +8,7 @@ img{
     color:grey;
     margin-top: -51%;
     width: 95%;
+    text-decoration: none;
     /* text-align:center; */
     margin-left: 85%;
 }

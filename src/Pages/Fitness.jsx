@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Fitness.css"
 import ReusableComp from './ReusableComp'
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 
 const Fitness = () => {
   return (
@@ -28,8 +28,10 @@ const Fitness = () => {
           <div className='fad'>Advertisement</div>
 
           </div>
+        </div><br/><br/><br/> <br/><br/><br/><br/> <br/>
+        <div className='foot'>
+          <Footer/>
         </div>
-        {/* <Footer/> */}
     </div>
   )
 }
