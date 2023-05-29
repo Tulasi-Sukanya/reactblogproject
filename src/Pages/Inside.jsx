@@ -6,9 +6,9 @@ const Inside = () => {
   console.log(loc.state);
   return (
     <div>
-      <img src={loc.state.img} style={{height:"250px",width:"250px",borderRadius:"8px",marginLeft:"38%",marginTop:"3%"}}/>
+      <img src={loc.state.img} style={{height:"250px",width:"250px",borderRadius:"8px",marginLeft:"38%",marginTop:"3%"}} alt="error" />
       <h5 style={{textAlign:"center"}}>{loc.state.title}</h5>
-      <p style={{fontSize:"18px",width:"70%",marginLeft:"15%"}}>{loc.state.article}</p>
+      <p style={{fontSize:"15px",width:"70%",marginLeft:"15%",color:"black"}}>{loc.state.article}</p>
     </div>
   )
 }

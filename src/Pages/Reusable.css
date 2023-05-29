@@ -12,6 +12,9 @@ img{
     /* text-align:center; */
     margin-left: 85%;
 }
+.article:hover{
+    color: rgb(22, 22, 22);
+}
 .title{
     width: 80%;
     font-weight:bold;
